@@ -5,7 +5,7 @@ function handleUpdate() {
 
 //? Solution with changing wars
 
-  const sufix = this.dataset['sizing'] || 'px'
+  const suffix = this.dataset['sizing'] || 'px'
   document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix)
 
 // ? Solution without vars
